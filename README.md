@@ -8,7 +8,7 @@ In maps like Google maps one can embed them via their API and disable the scroll
 
 Our plugin takes the element you pass to it and covers it with a transparent layer which *"absorbs"* the scroll events of the user. 
 
-If the user clicks on the layer then it disappears allowing the user to interact with that element. A small annoyance there in order to avoid the bigger, more common one.
+If the user clicks on the layer then it disappears allowing the user to interact with that element. A small inconvenience there in order to avoid the bigger, more common one.
 
 The plugin makes sure that, when the user is not using the element any more, the transparent element is put back into its place in order to start *"absorbing"* the scroll events again.
 
