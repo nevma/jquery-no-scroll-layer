@@ -12,6 +12,18 @@ If the user clicks on the layer then it disappears allowing the user to interact
 
 The plugin makes sure that, when the user is not using the element any more, the transparent element is put back into its place in order to start *"absorbing"* the scroll events again.
 
+## Usage
+
+Best way to call the plugin is to add a `no-scroll-layer` class to a surrounding element.
+
+```html
+<div class = "no-scroll-layer">
+
+    <iframe src = "https://www.google.com/maps/embed/..." width = "600" height = "450" frameborder = "0" style = "border:0" allowfullscreen></iframe>
+
+</div>
+```
+
 ## License
 
 GPL v.3.
